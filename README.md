@@ -36,3 +36,13 @@ Note: MST and genetic algorithm methods were impractical for size above this lev
 ### 1 Million Locations
 - **Cluster Method:** 1699 seconds execution time with a path length of 15291 units. ![Organized 1 Million Locations](public/loc_1m.png)
 - **Genetic Algorithm:** For comparison, the genetic algorithm took 2082 seconds to produce a path of 14897169 units in length. That's a length **974 times longer** than the clustering method. ![Genetic Algorithm for 1 Million Locations](public/genetic.png)
+
+```bibtex
+@misc{Yin,
+  author = {Yin, Don},
+  title = {Clustering-Based Approximation for the Travelling Salesman Problem (TSP) using Hierarchical Clusters and Genetic Algorithms},
+  year = {2024},
+  howpublished = {\url{https://github.com/Don-Yin/Clustering-Travelling-Salesman-Problem}},
+  note = {Accessed: 2024-03-31}
+}
+```
